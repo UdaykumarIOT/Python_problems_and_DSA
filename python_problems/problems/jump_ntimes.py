@@ -1,3 +1,4 @@
+#cognizant question
 n = int(input("n : ")) # length of list and output list
 arr = [int(input(f'arr index {i} :')) for i in range(n)] #given list
 k = int(input("k : ")) # jump size
