@@ -1,5 +1,5 @@
 import timeit
-import stack_list
+import stack
 start = timeit.default_timer()
 
 # input: 3+({2-1}*[3/3])
@@ -14,7 +14,7 @@ class main:
             "}":"{",
             "]":"["
             }
-        s=stack_list.Stack()
+        s=stack.Stack()
         for char in exp:
             if char in open_:
                 s.push(char)
